@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="arpokrat" fetch="https://github.com/arpokrat" />
+  <remove-project name="platform_build" />
+  <project path="build/make" name="arpokrat_build_make" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_akita-kernels_6.1" />
+  <project path="device/google/akita-kernels/6.1" name="arpokrat_device_google_akita-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_bluejay-kernels_6.1" />
+  <project path="device/google/bluejay-kernels/6.1" name="arpokrat_device_google_bluejay-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_caimito-kernels_6.1" />
+  <project path="device/google/caimito-kernels/6.1" name="arpokrat_device_google_caimito-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_comet-kernels_6.1" />
+  <project path="device/google/comet-kernels/6.1" name="arpokrat_device_google_comet-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device/google/cuttlefish" />
+  <project path="device/google/cuttlefish" name="arpokrat_device_google_cuttlefish" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_felix-kernels_6.1" />
+  <project path="device/google/felix-kernels/6.1" name="arpokrat_device_google_felix-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_laguna-kernels_6.6" />
+  <project path="device/google/laguna-kernels/6.6" name="arpokrat_device_google_laguna-kernels_6.6" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_lynx-kernels_6.1" />
+  <project path="device/google/lynx-kernels/6.1" name="arpokrat_device_google_lynx-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_pantah-kernels_6.1" />
+  <project path="device/google/pantah-kernels/6.1" name="arpokrat_device_google_pantah-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_raviole-kernels_6.1" />
+  <project path="device/google/raviole-kernels/6.1" name="arpokrat_device_google_raviole-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_shusky-kernels_6.1" />
+  <project path="device/google/shusky-kernels/6.1" name="arpokrat_device_google_shusky-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_stallion-kernels_6.1" />
+  <project path="device/google/stallion-kernels/6.1" name="arpokrat_device_google_stallion-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_tangorpro-kernels_6.1" />
+  <project path="device/google/tangorpro-kernels/6.1" name="arpokrat_device_google_tangorpro-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="device_google_tegu-kernels_6.1" />
+  <project path="device/google/tegu-kernels/6.1" name="arpokrat_device_google_tegu-kernels_6.1" remote="arpokrat" revision="main" />
+  <remove-project name="platform_frameworks_base" />
+  <project path="frameworks/base" name="arpokrat_frameworks_base" remote="arpokrat" revision="main" />
+  <remove-project name="platform_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="arpokrat_packages_apps_Settings" remote="arpokrat" revision="main" />
+  <remove-project name="platform_packages_apps_SetupWizard2" />
+  <project path="packages/apps/SetupWizard2" name="arpokrat_packages_apps_SetupWizard2" remote="arpokrat" revision="main" />
+  <remove-project name="platform_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="arpokrat_packages_inputmethods_LatinIME" remote="arpokrat" revision="main" />
+  <remove-project name="adevtool" />
+  <project path="vendor/adevtool" name="arpokrat_vendor_adevtool" remote="arpokrat" revision="main" />
+  <project path="vendor/arpokrat" name="arpokrat_vendor_arpokrat" remote="arpokrat" revision="main" />
+</manifest>
